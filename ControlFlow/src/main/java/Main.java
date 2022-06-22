@@ -3,10 +3,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //IfElse ifelse = new IfElse();
-        //String newString = "This is Hello World";
-        //System.out.println(ifelse.checkStringLength("Tiffany"));
-        //System.out.println(ifelse.printTStringsOnly(newString));
+        IfElse ifelse = new IfElse();
+        String newString = "This is Hello World";
+        System.out.println(ifelse.checkStringLength("Tiffany"));
+        System.out.println(ifelse.printTStringsOnly(newString));
 
 
     /*
@@ -17,16 +17,16 @@ public class Main {
 
 
         //here we are creating our String array right in the param of our method
-        //ForLoops.printAssociatesNames(new String[]{"Jo Jo","CJ","DeeAnne","David","Shane"});
+        ForLoops.printAssociatesNames(new String[]{"Jo Jo","CJ","DeeAnne","David","Shane"});
 
-        //String[] associates = {"Shaquanna","Mark","Tyler","Eric","Janga","Li"};
-        //System.out.println(ForLoops.printTotalAssociatesNamesCount(associates));
+        String[] associates = {"Shaquanna","Mark","Tyler","Eric","Janga","Li"};
+        System.out.println(ForLoops.printTotalAssociatesNamesCount(associates));
 
     /*
     While Loops
      */
 
-       //WhileLoops.printFirst3Indexes(associates);
+       WhileLoops.printFirst3Indexes(associates);
 
 
 
@@ -34,8 +34,8 @@ public class Main {
     DoWhileLoops
      */
 
-       //DoWhile doWhile = new DoWhile();
-       //doWhile.printValueIfTrue();
+       DoWhile doWhile = new DoWhile();
+       doWhile.printValueIfTrue();
 
 
     /*
